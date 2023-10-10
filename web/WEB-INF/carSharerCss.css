@@ -1,0 +1,223 @@
+
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+th{
+	padding-right: 20px;
+}
+
+td{
+	padding-right: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: ink free;
+    text-align: center;
+    background-color: lightgrey;
+    width: 500px;
+    border: 10px solid rgb(22, 48, 134);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 390px;
+}
+
+.wname{
+    text-align: left;
+    color: #333;
+    float: left;
+    font-family: Brush Script MT;
+    text-decoration: none;
+}
+
+.brat{
+    text-align: center;
+    background-color: lightgrey;
+    width: 500px;
+    border: 10px solid rgb(22, 48, 134);
+    padding: 20px;
+    /*margin: auto;
+    margin-top: 50px;
+    margin-left: 0px;*/
+}
+
+input[type=text]{
+    width: 150px;
+    height: 30px;
+    font-size: 30px;
+}
+
+input[type=radio]{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+input[type=number]{
+    width: 150px;
+    height: 30px;
+    font-size: 30px;
+}
+
+input[type=time]{
+    width: 150px;
+    height: 30px;
+    font-size: 30px;
+}
+
+input[type=date]{
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+}
+
+#time{
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+}
+
+textarea{
+    font-size: 15px;
+}
+
+input[type=submit]{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 53, 53);
+}
+
+#ul2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 53, 53);
+}
+
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active){
+    background-color: #111;
+}
+  
+.active{
+    background-color: #3e48a5;
+}
+
+.btn{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.text{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.dataFrame{
+	border: 3px solid black;
+	margin: 3%;
+	margin-left: 8%;
+	background-color: white;
+	font-size: 30px;
+}
+
+
+.vsdiv1{
+	margin-left: 10%;
+    
+}
+.vs{
+	font-family: sans-serif;
+    font-size: 40px;
+    background-color: lightblue;
+}
+
+.vs li a:hover:not(.active){
+    background-color: #111;
+}
+
+.vs li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#a1:hover:not(.active){
+    color: #333;
+    text-decoration: none;
+}
+
+
+.row{
+	border: 2px solid black;
+	width: 90%;
+	padding-left: 5%;
+}
+
+#ratingURL{
+	margin-left: 75%;
+	text-decoration: none;
+}
+
+.inoutStyle{
+	float: right;
+}
+
+/* small */
+@media (max-width: 649px){
+	#ratingURL{
+		margin-left: 30%;
+	}
+	body{
+		font-size: 20px;
+	}
+	.vs{
+    	font-size: 25px;
+	}
+	.dataFrame{
+		font-size: 25px;
+	}
+}
+/* medum */
+@media (min-width: 650px) and (max-width: 1300px){
+	#ratingURL{
+		margin-left: 50%;
+	}
+	body{
+		font-size: 40px;
+	}
+}
